@@ -1,0 +1,142 @@
+.header {
+    height: 80px;
+    width: 100wv;
+    background-color: #6200EA;
+    display: block;
+}
+
+.header-wrapper {
+    display: table;
+    height: 100%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo,
+.subscribe {
+    float: left;
+}
+
+.subscribe {
+    margin: 0;
+    margin-right: 27.477%;
+
+}
+
+.button {
+    display: inline-block;
+    width: 11.429rem;
+    padding: .928rem 0;
+    border: 2px solid;
+    border-radius: 1.786rem;
+    text-align: center;
+}
+
+.button-sub {
+    color: #6200ea;
+    background-color: #ffffff;
+}
+
+/*---------------navigation--------------------*/
+
+.navbar {
+    height: 80px;
+    width: 100wv;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 2.857rem;
+}
+
+.navbar-wrapper {
+    display: table;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.navbar-container {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #211138;
+}
+
+.navigation_link {
+    padding-bottom: 2.1rem;
+    margin-right: 5%;
+    color: #211138;
+}
+
+/*----------------------FLEX--------------------*/
+
+.flexbox-container,
+.sidebar-category {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+}
+
+.flexbox-item {
+    padding: 2%;
+
+}
+
+
+
+/*------------------------FLEX RIGHT-----------------------------*/
+.float-right {
+    flex: 1;
+}
+
+.sidebar-category {
+    padding: 1.429rem;
+    background-color: #fff;
+    min-width: 40vh;
+    height: 200px;
+    border-radius: 1.071rem;
+}
+
+.sidebar-element {
+    padding: 1.429rem;
+    text-align: center;
+    background: #6200EA;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    height: 60px
+}
+.sidebar-element h6{
+    padding-bottom: 0;
+   
+}
+.sidebar-category p{
+    
+}
+.sidebar-category h6{
+    display: block;
+}
+
+
+
+
+/*--------------FLEX_LIEFT--------------------------------*/
+.float-left {
+    flex: 2;
+}
+
+.post {
+    color: #ffffff;
+    background-image: url(assets/blog/roberto-nickson-5ui0tfMC5ts-unsplash.jpg);
+    background-size: cover;
+    border-radius: 1.071rem;
+    background-color: #ffffff;
+    padding: 4.286rem 4.286rem 3.751rem 4.286rem;
+}
