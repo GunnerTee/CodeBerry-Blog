@@ -35,7 +35,10 @@ h6 {
     text-transform: uppercase;
 }
 
-.p-small,
+.p-small {
+    font-size: .897rem
+}
+
 .p-big {
     font-size: 1.428rem;
     letter-spacing: 0px;
@@ -44,8 +47,8 @@ h6 {
 }
 
 .sm-img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -58,11 +61,6 @@ html {
     color: #211138;
     background-color: #f4f3f5;
     font-size: 14px;
-}
-
-.content {
-    width: 70%;
-    height: auto;
 }
 
 .centered {
@@ -85,8 +83,19 @@ html {
     background-color: #fff;
     text-align: center;
 }
-.button-trans{
-      border-color:     #ffffff;
-    color:            #ffffff;
+.button-2{
+    display: inline-block;
+    width: 11.429rem;
+    padding: .928rem 0;
+    border: 2px solid #6200EA;
+    border-radius: 1.786rem;
+    background-color: #fff;
+    text-align: center;
+    color:#6200EA;
+}
+
+.button-trans {
+    border-color: #ffffff;
+    color: #ffffff;
     background-color: transparent;
 }
